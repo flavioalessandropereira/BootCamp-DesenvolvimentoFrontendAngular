@@ -1,0 +1,72 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(228, 228, 228);
+    max-width: 900px;
+    margin: auto;
+}
+
+
+#title, .subtitle, .post_title{
+    color: rgb(5, 5, 33);
+    
+}
+
+#title{
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line-through;
+    color: blue;
+
+}
+
+
+.subtitle{
+
+}
+
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+
+
+.post{
+    background-color: rgb(184, 184, 184);
+    padding: 15px;
+    border: 1px solid rgb(15, 15, 14);
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.post p{
+    text-transform: capitalize;
+}
+
+.post_title{
+    width: 100%;
+}
+
+.img_post{
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 15px;
+  
+
+}
+
+a{
+    text-decoration: none;
+}
